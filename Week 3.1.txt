@@ -1,0 +1,8 @@
+m=int(input())
+p=int(input())
+c=int(input())
+tot=m+p+c
+if(tot>=180):
+    print("The candidate is eligible")
+else:
+    print("The candidate is not eligible")

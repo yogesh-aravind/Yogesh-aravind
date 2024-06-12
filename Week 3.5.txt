@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+case1=((a*a)+(b*b)==(c*c))
+case2=((b*b)+(c*c)==(a*a))
+case3=((a*a)+(c*c)==(b*b))
+if(case1 or case2 or case3):
+    print("yes")
+else:
+    print("no")

@@ -1,0 +1,26 @@
+month=str(input())
+match month:
+    case "January":
+        print("January has 31 days in it.")
+    case "February":
+        print("February has 28 or 29 days in it.")
+    case "March":
+        print("March has 31 days in it.")
+    case "April":
+        print("April has 30 days in it.")
+    case "May":
+        print("May has 31 days in it.")
+    case "June":
+        print("June has 30 days in it.")
+    case "July":
+        print("July has 31 days in it.")
+    case "August":
+        print("August has 31 days in it.")
+    case "September":
+        print("September has 30 days in it.")
+    case "October":
+        print("October has 31 days in it.")
+    case "November":
+        print("November has 30 days in it.")
+    case "December":
+        print("December has 31 days in it.")

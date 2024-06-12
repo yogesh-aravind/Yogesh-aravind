@@ -1,0 +1,6 @@
+n=int(input())
+p=int(input())
+if n>=18 and p>40:
+    print("True")
+else:
+    print("False")
